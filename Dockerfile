@@ -9,9 +9,9 @@ COPY . /app
 
 RUN pip3 --no-cache-dir install -r requirements.txt
 
-EXPOSE 5000
+EXPOSE 5003
 
 ENTRYPOINT ["python3"]
-CMD ["app.py"]
+CMD ["01.Py.StaticRendering.py"]
 
 
